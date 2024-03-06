@@ -1,62 +1,71 @@
-<div align="center"><img src="https://raw.githubusercontent.com/Eilaluth/Ayano/main/img/ayanoxkyoko.png" /></div>
+<p id="kyoko" align="center">
+<img src="https://i.ibb.co/ydWTXyD/kyoko.png" width="160"/><br/>
+<b>歳納京子</b><br/>
+Toshino Kyoko<br/>
+<img src="https://img.shields.io/badge/LICENE-WTFPL-ebcb8b?style=flat-square"/> <img src="https://img.shields.io/badge/VERSION-1.0.0-a3be8c?style=flat-square"/><br/>
+My Public API Documentation<br/>
+Feel Free to Use It Anytime, Anywhere, Totally Free, No API Key Needed!<br/>
+<u><i>https://kyoko.rei.my.id</i></u>
+<br/>
+Powered by<br/>
+<img src="https://img.shields.io/badge/GO-1.20.10-88C0D0?style=flat-square"/> <img src="https://img.shields.io/badge/FIBER-2.52.2-81A1C1?style=flat-square"/> <img src="https://img.shields.io/badge/FASTHTTP-1.52.0-5E81AC?style=flat-square"/>
+<br/>
+Support me<br/>
+<a href="https://paypal.me/elliottophellia"><img src="https://img.shields.io/badge/PAYPAL-5E81AC?style=flat-square"/></a> <a href="https://saweria.co/elliottophellia"><img src="https://img.shields.io/badge/SAWERIA-EBCB8B?style=flat-square"/></a> <a href="https://ko-fi.com/elliottophellia"><img src="https://img.shields.io/badge/KOFI-D08770?style=flat-square"/></a> <a href="https://trakteer.id/elliottophellia"><img src="https://img.shields.io/badge/TRAKTEER-BF616A?style=flat-square"/></a>
+<br/>
+Translation<br/>
+<img src="https://img.shields.io/badge/INDONESIA-555555.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoM3YySDB6Ii8+PHBhdGggZmlsbD0icmVkIiBkPSJNMCAwaDN2MUgweiIvPjwvc3ZnPg==&style=flat-square"/> 
+<br/>
+</p>
 
-# Toshino Kyoko
 
-<img src="https://static.wikia.nocookie.net/yuruyuri/images/4/46/KyokoToshino-NYS3.png/revision/latest/scale-to-width-down/350?cb=20201118084325" width="160" align="right" />
+## Table of Content
 
-Toshinou Kyouko is the founder of the amusement club. Goes so wild that no one can keep up with her, but it's not as if anyone even tries in the first place, so it's ultimately no big deal. She is actually an otaku who creates her own doujinshi of Mirakurun, an anime character in Yuru Yuri.
+<!-- TOC START -->
 
-# Screenshot
+- [Toshino Kyoko](#kyoko)
+  - [Translation](#kyoko)
+  - [Table of Content](#table-of-content)
+  - [API List](#api-list)
+    - [ANIME](#anime)
+    - [OSINT](#anime)
+  - [License](#license)
 
-<div align="center">
-  <img src="https://i.ibb.co/G9b024C/Desktop-Screenshot-2021-09-30-21-24-43-08.png"/><br/>
-  <img src="https://i.ibb.co/MVbPH3k/Desktop-Screenshot-2021-09-30-21-37-30-50.png"/>
-</div>
+<!-- TOC END -->
 
-# Example Result
+## API List
 
-Random Anime Quotes <br/>
-Link : http://127.0.0.1:3000/api/quotes
-```bash
-{
-    quote: "Just because I've gotten weaker, it doesn't mean that you've gotten stronger, right?",
-    anime: "Toaru Majutsu no Index",
-    id: 4436,
-    name: "Accelerator"
-}
+<!-- API START -->
+
+### ANIME
+
+| API Name                   | Documentation                                                                                       | Status | Description                                               | Authentication | Limitation  |
+| -------------------------- | --------------------------------------------------------------------------------------------------- | ------ | --------------------------------------------------------- | -------------- | ----------- |
+| Waifu Generator            | [Link](https://github.com/elliottophellia/kyoko/blob/master/docs/ANIME/WAIFU-Generator/README.md)   | ✅     | Generate both SFW and NSFW waifu images.                  | `none`        | 50/1min     |
+
+### OSINT
+
+| API Name                   | Documentation                                                                                       | Status | Description                                               | Authentication | Limitation  |
+| -------------------------- | --------------------------------------------------------------------------------------------------- | ------ | --------------------------------------------------------- | -------------- | ----------- |
+| IP Address Lookup          | [Link](https://github.com/elliottophellia/kyoko/blob/master/docs/OSINT/IP-Address-Lookup/README.md) | ✅     | Lookup details information about an IP address.           | `none`        | 50/1min     |
+| BIN Lookup                 | [Link](https://github.com/elliottophellia/kyoko/blob/master/docs/OSINT/BIN-Lookup/README.md)        | ✅     | Lookup details information about a BIN number.            | `none`        | 50/1min     |
+
+<!-- API END -->
+
+## License
+
 ```
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2024
+ 
+Copyright (C) 2024 Reidho Satria <me@rei.my.id>
 
-Random Anime Slap <br/>
-Link : http://127.0.0.1:3000/api/slap
-```bash
-{
-    url: "http://127.0.0.1:3000/images/slap/slap_008.gif"
-}
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+ 
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+ 0. You just DO WHAT THE FUCK YOU WANT TO.
 ```
-
-Random Anime Kiss <br/>
-Link : http://127.0.0.1:3000/api/kiss
-```bash
-{
-    url: "http://127.0.0.1:3000/images/kiss/kiss_136.gif"
-}
-```
-
-Random Anime Hug <br/>
-Link : http://127.0.0.1:3000/api/hug
-```bash
-{
-    url: "http://127.0.0.1:3000/images/hug/hug_087.gif"
-}
-```
-
-# Install
-```bash
-root@toshinokyoko:~$ git clone https://github.com/Eilaluth/Kyoko.git
-root@toshinokyoko:~$ cd Kyoko
-root@toshinokyoko:~$ npm install
-root@toshinokyoko:~$ npm start
-```
-
-# Note
-You can changes port or add ssl licence in /bin/www
