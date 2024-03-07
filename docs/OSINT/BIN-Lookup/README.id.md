@@ -1,8 +1,10 @@
+<a href="https://api.rei.my.id/README.id">HOME</a>
+
 # BIN Lookup
 
 Lihat informasi details tentang nomor BIN.
 
-<img src="https://img.shields.io/badge/SCHEME-HTTPS-a3be8c?style=flat-square"/> <img src="https://img.shields.io/badge/AUTHENTICATION-NONE-ebcb8b?style=flat-square"/>
+<img src="https://img.shields.io/badge/SCHEME-HTTPS-a3be8c?style=flat-square"/> <img src="https://img.shields.io/badge/AUTHENTICATION-NONE-ebcb8b?style=flat-square"/> <img src="https://img.shields.io/badge/LIMITATION-50%20200%20OK%20%2F%201min-88C0D0?style=flat-square"/>
 
 ## Get details
 Dapatkan detail informasi dari nomor BIN yang diberikan.
@@ -10,6 +12,7 @@ Dapatkan detail informasi dari nomor BIN yang diberikan.
 | URL | Request Type |
 | --- | ------------ |
 | `https://bin.rei.my.id/{bin}` | `GET`
+
 <small> _Parameter yang valid adalah angka yang sesuai dengan bank atau institusi keuangan yang dituju._ </small>
 
 ## Example

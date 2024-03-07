@@ -1,8 +1,10 @@
+<a href="https://api.rei.my.id/README.id">HOME</a>
+
 # Waifu Generator
 
 Dapetin banyak jenis gambar waifu untuk kamu!
 
-<img src="https://img.shields.io/badge/SCHEME-HTTPS-a3be8c?style=flat-square"/> <img src="https://img.shields.io/badge/AUTENTIKASI-NONE-ebcb8b?style=flat-square"/>
+<img src="https://img.shields.io/badge/SCHEME-HTTPS-a3be8c?style=flat-square"/> <img src="https://img.shields.io/badge/AUTHENTICATION-NONE-ebcb8b?style=flat-square"/> <img src="https://img.shields.io/badge/LIMITATION-50%20200%20OK%20%2F%201min-88C0D0?style=flat-square"/>
 
 ## Categories
 
@@ -46,6 +48,7 @@ Dapetin url gambar dari endpoint yang kamu pilih.
 | URL | Tipe Request |
 | --- | ------------ |
 | `https://waifu.rei.my.id/{type}/{category}` | `GET`
+
 <small> _Type yang valid adalah sfw dan nsfw._ </small>
 
 ## Example

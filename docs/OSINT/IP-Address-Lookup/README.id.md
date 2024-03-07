@@ -1,8 +1,10 @@
+<a href="https://api.rei.my.id/README.id">HOME</a>
+
 # IP Address Lookup
 
 Lihat informasi detail tentang IP address.
 
-<img src="https://img.shields.io/badge/SCHEME-HTTPS-a3be8c?style=flat-square"/> <img src="https://img.shields.io/badge/AUTHENTICATION-NONE-ebcb8b?style=flat-square"/>
+<img src="https://img.shields.io/badge/SCHEME-HTTPS-a3be8c?style=flat-square"/> <img src="https://img.shields.io/badge/AUTHENTICATION-NONE-ebcb8b?style=flat-square"/> <img src="https://img.shields.io/badge/LIMITATION-50%20200%20OK%20%2F%201min-88C0D0?style=flat-square"/>
 
 ## Get details
 Dapatkan detail informasi dari IP address kamu.
@@ -15,6 +17,7 @@ Dapatkan detail informasi dari spesifik IP address.
 | URL | Request Type |
 | --- | ------------ |
 | `https://ip.rei.my.id/{ip}` | `GET`
+
 <small> _Parameter yang valid adalah IPv4 address._ </small>
 
 ## Example
