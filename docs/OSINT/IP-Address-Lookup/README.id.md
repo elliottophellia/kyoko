@@ -7,6 +7,7 @@ Lihat informasi detail tentang IP address.
 <img src="https://img.shields.io/badge/SCHEME-HTTPS-a3be8c?style=flat-square"/> <img src="https://img.shields.io/badge/AUTHENTICATION-NONE-ebcb8b?style=flat-square"/> <img src="https://img.shields.io/badge/LIMITATION-50%20200%20OK%20%2F%201min-88C0D0?style=flat-square"/>
 
 ## Get details
+
 Dapatkan detail informasi dari IP address kamu.
 
 | URL | Request Type |
@@ -14,6 +15,7 @@ Dapatkan detail informasi dari IP address kamu.
 | `https://ip.rei.my.id/` | `GET`
 
 Dapatkan detail informasi dari spesifik IP address.
+
 | URL | Request Type |
 | --- | ------------ |
 | `https://ip.rei.my.id/{ip}` | `GET`

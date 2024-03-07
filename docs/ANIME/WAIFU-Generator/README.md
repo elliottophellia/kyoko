@@ -44,11 +44,18 @@ Generate huge variety of waifu images for you!
 | `cringe` |
 
 ## Get image
+
 Recieve image url from your endpoint of choice.
 
 | URL | Request Type |
 | --- | ------------ |
 | `https://waifu.rei.my.id/{type}/{category}` | `GET`
+
+Recieve many image url from your endpoint of choice.
+
+| URL | Request Type |
+| --- | ------------ |
+| `https://waifu.rei.my.id/many/{type}/{category}` | `GET`
 
 <small> _Valid types are sfw and nsfw._ </small>
 

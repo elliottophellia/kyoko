@@ -44,10 +44,18 @@ Dapetin banyak jenis gambar waifu untuk kamu!
 | `cringe` |
 
 ## Get image
+
 Dapetin url gambar dari endpoint yang kamu pilih.
+
 | URL | Tipe Request |
 | --- | ------------ |
 | `https://waifu.rei.my.id/{type}/{category}` | `GET`
+
+Dapetin banyak url gambar dari endpoint yang kamu pilih.
+
+| URL | Tipe Request |
+| --- | ------------ |
+| `https://waifu.rei.my.id/many/{type}/{category}` | `GET`
 
 <small> _Type yang valid adalah sfw dan nsfw._ </small>
 
