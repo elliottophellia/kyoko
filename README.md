@@ -70,3 +70,4 @@ as the name is changed.
 
  0. You just DO WHAT THE FUCK YOU WANT TO.
 ```
+[<img src="https://api.gitsponsors.com/api/badge/img?id=412098143" height="20">](https://api.gitsponsors.com/api/badge/link?p=pCHL+RDMg13we0kbdhfc2f3d4IG16KofOmQLvtZScyzjhgE5TTICSDYhZvaCTsvV2uhr79jOBUIdPL8zoAHwh4k0ohSSoumtv6Z5o/GBhGj8loA9YuyT/K+A6g5tUXGWIPtTdG+D1gpNOTKqChaFhjIZ6+s9DV/CtBfwAxMYNEA=)
